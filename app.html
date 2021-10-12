@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>APP NAME: A Coding Challenge By Matthew Chung</title>
+    <title>THE SUM OF ALL FEARS: A Coding Challenge By Matthew Chung</title>
     <!--Required Meta Tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="img/Favicon2/android-chrome-512x512.png" width="30"
-                    height="30" class="d-inline-block align-text-top">APP NAME</a>
+                    height="30" class="d-inline-block align-text-top"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,12 +50,23 @@
     <!--Main Section-->
     <main id="content" class="flex-shrink-0">
         <div class="container">
-            <h1>The App Page</h1>
-            <form>
-                <input id="message" type="text" placeholder="Enter A Message" required>
-                <button id="btnSubmit" type="button" class="btn btn-dark">Display Message</button>
-                <button id="btnSubmit2" type="button" class="btn btn-dark">Display Message2</button>
-            </form>
+            <div class="row">
+                <div class="col">
+                    <h1>THE SUM OF ALL FEARS</h1>
+                </div>
+            </div>
+            <div class="row">
+                <h2>A CODING CHALLENGE</h2>
+                <div class="col">
+                    <form>
+                        <label>Enter a Number:</label>
+                        <input id="amount" type="number" placeholder="Amount" required>
+                    </form>
+                    <button id="btnSubmit" type="button" class="btn btn-dark">Find It</button>
+                </div>
+            </div>
+
+
         </div>
     </main>
     <!--Footer Section-->
@@ -91,7 +102,6 @@
     <script src="js/site.js"></script>
     <script>
         document.getElementById("btnSubmit").addEventListener("click", displayMessage);
-        document.getElementById("btnSubmit2").addEventListener("click", displayMessage2);
     </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
